@@ -13,13 +13,13 @@
 
 ---
 
-9+ years building test automation in SaaS environments. Deep expertise in Java/Selenium — and I use Agentic AI as an active engineering partner to design and ship production-grade frameworks across any stack. The question isn't which tools you know. It's how fast you can deliver quality systems that scale.
+9+ years building test automation in SaaS environments. Deep expertise in Java/Selenium. I use Agentic AI as an active engineering partner to design and ship production-grade frameworks across any stack. The question isn't which tools you know. It's how fast you can deliver quality systems that scale.
 
 ---
 
 ## 🏗️ Portfolio
 
-**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)** — A production-grade monorepo with seven independent, fully CI/CD-integrated test frameworks.
+**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)**: A production-grade monorepo with seven independent, fully CI/CD-integrated test frameworks.
 
 | Framework | Stack | Capabilities |
 |---|---|---|
@@ -31,7 +31,7 @@
 | **Playwright** | C# · .NET 8 · TypeScript 5 · NUnit | Cross-browser · Service mocking · OWASP security tests · 65 unit tests |
 | **Postman / Newman** | JSON · JavaScript · Node.js 20 | REST API · Integration flow chaining · Pre-request scripts · HTML reports |
 
-Every framework ships with **DataDog CI Visibility**, custom observability metrics, **Allure reporting**, **OWASP ZAP** passive scanning, and **Slack notifications** — all wired into GitHub Actions with path-based triggers.
+Every framework ships with **DataDog CI Visibility**, custom observability metrics, **Allure reporting**, **OWASP ZAP** passive scanning, and **Slack notifications**: all wired into GitHub Actions with path-based triggers.
 
 [![ai-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml)
 [![conv-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/conv-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/conv-eval.yml)
