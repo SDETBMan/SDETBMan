@@ -2,7 +2,7 @@
 <h3 align="center">QA Engineering Leader &nbsp;·&nbsp; AI-Augmented Automation Architect</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/brian-padgett-b75981309">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
@@ -19,21 +19,27 @@
 
 ## 🏗️ Portfolio
 
-**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)** — A production-grade monorepo with four independent, fully CI/CD-integrated test frameworks.
+**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)** — A production-grade monorepo with seven independent, fully CI/CD-integrated test frameworks.
 
 | Framework | Stack | Capabilities |
 |---|---|---|
-| **Selenium / TestNG** | Java 17 · Maven | POM · Parallel execution · BrowserStack · Healenium self-healing · K8s Grid |
-| **Cucumber / BDD** | Java 17 · Cucumber 7 · TestNG | Gherkin · Retry logic · Appium mobile · JMeter performance |
-| **Playwright** | C# · .NET 8 · TypeScript 5 · NUnit | Cross-browser · Service mocking · OWASP security tests |
-| **AI Evaluation** | Python · DeepEval · OpenAI · ChromaDB | RAG pipeline · LLM scoring · Hallucination & safety detection |
+| **AI Evaluation (RAG)** | Python · DeepEval · OpenAI · ChromaDB | RAG pipeline · LLM scoring · Hallucination & safety detection · JSON schema validation · Cost & latency tracking |
+| **Conversational AI Eval** | Python · DeepEval · OpenAI | Stateful chatbot · Turn relevancy · Knowledge retention · Role adherence · Graceful handling |
+| **Agent & Tool-Use Eval** | Python · DeepEval · OpenAI · Pydantic | Function-calling agent · Multi-step tool orchestration · Tool correctness · Task completion |
+| **Selenium / TestNG** | Java 17 · Maven | POM · Parallel execution · Healenium self-healing · K8s Grid · Appium mobile |
+| **Cucumber / BDD** | Java 17 · Cucumber 7 · TestNG | Gherkin · Retry logic · JMeter performance · OWASP security |
+| **Playwright** | C# · .NET 8 · TypeScript 5 · NUnit | Cross-browser · Service mocking · OWASP security tests · 65 unit tests |
+| **Postman / Newman** | JSON · JavaScript · Node.js 20 | REST API · Integration flow chaining · Pre-request scripts · HTML reports |
 
 Every framework ships with **DataDog CI Visibility**, custom observability metrics, **Allure reporting**, **OWASP ZAP** passive scanning, and **Slack notifications** — all wired into GitHub Actions with path-based triggers.
 
+[![ai-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml)
+[![conv-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/conv-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/conv-eval.yml)
+[![agent-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/agent-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/agent-eval.yml)
 [![playwright-dotnet CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/playwright-dotnet.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/playwright-dotnet.yml)
 [![selenium-java CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/selenium-java.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/selenium-java.yml)
 [![cucumber CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/cucumber.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/cucumber.yml)
-[![ai-eval CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/ai-eval.yml)
+[![postman-newman CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/postman-newman.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/postman-newman.yml)
 
 ---
 
@@ -54,6 +60,7 @@ Every framework ships with **DataDog CI Visibility**, custom observability metri
 ![TestNG](https://img.shields.io/badge/TestNG-FF6C37?style=flat-square&logoColor=white)
 ![NUnit](https://img.shields.io/badge/NUnit-004880?style=flat-square&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 **Observability & CI/CD**
 
@@ -72,6 +79,7 @@ Every framework ships with **DataDog CI Visibility**, custom observability metri
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logoColor=white)
 ![DeepEval](https://img.shields.io/badge/DeepEval-000000?style=flat-square&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 
 ---
 
