@@ -19,7 +19,7 @@
 
 ## 🏗️ Portfolio
 
-**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)** — A production-grade monorepo with seven independent, fully CI/CD-integrated test frameworks.
+**[qa-automation-portfolio](https://github.com/SDETBMan/qa-automation-portfolio)** — A production-grade monorepo with eight independent, fully CI/CD-integrated test frameworks.
 
 | Framework | Stack | Capabilities |
 |---|---|---|
@@ -30,6 +30,7 @@
 | **Cucumber / BDD** | Java 17 · Cucumber 7 · TestNG | Gherkin · Retry logic · JMeter performance · OWASP security |
 | **Playwright** | C# · .NET 8 · TypeScript 5 · NUnit | Cross-browser · Service mocking · OWASP security tests · 65 unit tests |
 | **Postman / Newman** | JSON · JavaScript · Node.js 20 | REST API · Integration flow chaining · Pre-request scripts · HTML reports |
+| **Job Agent** | Python · Anthropic Claude · Tavily | Agentic tool-use loop · Job search · AI fit scoring · Cover letter generation · Nightly CI |
 
 Every framework ships with **DataDog CI Visibility**, custom observability metrics, **Allure reporting**, **OWASP ZAP** passive scanning, and **Slack notifications** — all wired into GitHub Actions with path-based triggers.
 
@@ -40,6 +41,7 @@ Every framework ships with **DataDog CI Visibility**, custom observability metri
 [![selenium-java CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/selenium-java.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/selenium-java.yml)
 [![cucumber CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/cucumber.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/cucumber.yml)
 [![postman-newman CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/postman-newman.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/postman-newman.yml)
+[![job-agent CI](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/job-agent.yml/badge.svg)](https://github.com/SDETBMan/qa-automation-portfolio/actions/workflows/job-agent.yml)
 
 ---
 
@@ -77,7 +79,9 @@ Every framework ships with **DataDog CI Visibility**, custom observability metri
 **AI Tooling**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-D97757?style=flat-square&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logoColor=white)
+![Tavily](https://img.shields.io/badge/Tavily-000000?style=flat-square&logoColor=white)
 ![DeepEval](https://img.shields.io/badge/DeepEval-000000?style=flat-square&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
 
